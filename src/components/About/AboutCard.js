@@ -28,17 +28,17 @@ function AboutCard() {
               <ImPointRight /> Athletics 🏅
             </li>
             <li className="about-activity">
-              <ImPointRight /> Arts 
+              <ImPointRight /> Art and Crafting 🎨
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places 🌍
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Utkarsha</footer>
+          <footer className="blockquote-footer">Utkarsha</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

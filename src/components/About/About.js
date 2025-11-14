@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about2.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -37,7 +37,7 @@ function About() {
             </Col>
           </Row>
           <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+            Technical <strong className="purple">Skills </strong>
           </h1>
 
           <Techstack />
