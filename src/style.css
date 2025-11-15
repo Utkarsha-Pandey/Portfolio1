@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #1e90ff;
+  --imp-text-color: #00d4ff;
 }
 
 .purple {
@@ -106,7 +106,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #1e90ff !important;
+  background-color: #00d4ff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -217,12 +217,6 @@ button:focus {
   text-transform: capitalize !important;
 }
 
-.navbar-nav .nav-item a:hover {
-  color: #1e90ff !important;
-  text-shadow: 0 0 15px rgba(30, 144, 255, 0.8) !important;
-  transform: translateY(-2px);
-}
-
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;
@@ -230,12 +224,11 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: linear-gradient(90deg, #1e90ff, #00d4ff);
+  background: linear-gradient(90deg, #00d4ff, #00f7ff);
   bottom: 1px;
   left: 0;
   z-index: -1;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 0 10px rgba(30, 144, 255, 0);
+  transition: all 0.3s ease-out 0s;
 }
 
 .navbar-nav .nav-item a:hover::after {
@@ -319,17 +312,17 @@ button:focus {
 }
 
 .main-name {
-  color: #1e90ff;
+  color: #00d4ff;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #1e90ff !important;
+  color: #00d4ff !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #1e90ff !important;
+  color: #00d4ff !important;
 }
 
 @media (max-width: 767px) {
@@ -417,13 +410,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #1e90ff;
+  box-shadow: 0 0 15px #00d4ff;
 }
 
 .home-social-icons:hover {
-  color: #1e90ff;
-  box-shadow: 0 0 5px #1e90ff;
-  text-shadow: 0 0 2px #1e90ff;
+  color: #00d4ff;
+  box-shadow: 0 0 5px #00d4ff;
+  text-shadow: 0 0 2px #00d4ff;
 }
 
 .social-icons {
@@ -556,8 +549,8 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #1e90ff !important;
-  border-color: #1e90ff !important;
+  background-color: #00d4ff !important;
+  border-color: #00d4ff !important;
 }
 
 .btn-primary:hover {

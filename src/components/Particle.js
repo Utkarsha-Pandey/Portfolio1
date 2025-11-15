@@ -8,11 +8,11 @@ function Particle() {
       params={{
         particles: {
           color: {
-            value: "#1e90ff"
+            value: "#00d4ff"
           },
           shadow: {
             enable: true,
-            color: "#1e90ff",
+            color: "#00d4ff",
             blur: 6
           },
           number: {
@@ -24,7 +24,7 @@ function Particle() {
           },
           line_linked: {
             enable: false,
-            color: "#1e90ff",
+            color: "#00d4ff",
             opacity: 0.03,
           },
           move: {
