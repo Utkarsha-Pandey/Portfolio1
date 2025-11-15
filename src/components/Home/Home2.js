@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/myimg.png";
 import codingImg from "../../Assets/coding.png";
+import Aboutcard from "../About/AboutCard";
+import Techstack from "../About/Techstack";
+import laptopImg from "../../Assets/about2.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -48,7 +51,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{ display: "flex", alignItems: "flex-start", paddingTop: "0" }}>
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -56,21 +59,35 @@ function Home2() {
         </Row>
       </Container>
       <Container>
-        <Row style={{ paddingTop: "50px" }}>
+        <Row style={{ justifyContent: "center", padding: "10px", marginTop: "180px" }}>
+          <Col md={7} style={{ justifyContent: "center", paddingTop: "30px", paddingBottom: "50px" }}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", color: "white" }}>
+              Know Who <strong className="purple">I'M</strong>
+            </h1>
+            <Aboutcard />
+          </Col>
+          <Col md={5} style={{ paddingTop: "30px", paddingBottom: "50px" }} className="about-img">
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+        </Row>
+
+        <Row style={{ paddingTop: "30px", marginTop: "180px" }}>
           <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Days I <span className="purple">Code</span>
             </h1>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "20px", paddingBottom: "50px" }}>
+        <Row style={{ paddingTop: "20px", paddingBottom: "30px" }}>
           <Col md={12} style={{ textAlign: "center" }}>
-            <img
-              src={codingImg}
-              alt="coding"
-              className="img-fluid"
-              style={{ maxHeight: "400px", width: "100%" }}
-            />
+            <img src={codingImg} alt="coding" className="img-fluid" style={{ maxHeight: "400px", width: "100%" }} />
+          </Col>
+        </Row>
+
+        <Row style={{ paddingTop: "30px", paddingBottom: "50px", marginTop: "180px" }}>
+          <Col md={12}>
+            <h1 className="project-heading">Technical <strong className="purple">Skills </strong></h1>
+            <Techstack />
           </Col>
         </Row>
       </Container>
