@@ -51,10 +51,10 @@ function Home() {
       </Container>
       <Home2 />
 
-      <Container>
+      {/* <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
-          <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+          <Col md={12} className="home-about-social"> */}
+            {/* <h1>Find Me On</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
@@ -68,7 +68,7 @@ function Home() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
               {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
@@ -79,7 +79,7 @@ function Home() {
                   <AiOutlineTwitter />
                 </a>
               </li> */}
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/utkarsha-pandey-603575260/"
                   target="_blank"
@@ -88,7 +88,7 @@ function Home() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
@@ -99,10 +99,10 @@ function Home() {
                   <AiFillInstagram />
                 </a>
               </li> */}
-            </ul>
+            {/* </ul>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </section>
   );
 }

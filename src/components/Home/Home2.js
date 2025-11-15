@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/myimg.png";
+import codingImg from "../../Assets/coding.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -51,6 +52,25 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row style={{ paddingTop: "50px" }}>
+          <Col md={12} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              Days I <span className="purple">Code</span>
+            </h1>
+          </Col>
+        </Row>
+        <Row style={{ paddingTop: "20px", paddingBottom: "50px" }}>
+          <Col md={12} style={{ textAlign: "center" }}>
+            <img
+              src={codingImg}
+              alt="coding"
+              className="img-fluid"
+              style={{ maxHeight: "400px", width: "100%" }}
+            />
           </Col>
         </Row>
       </Container>
